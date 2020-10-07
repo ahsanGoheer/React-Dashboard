@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto+Mono:wght@300;600&display=swap');
+
+body {
+  background: #43cea2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  
+    color: whitesmoke;
+}
+
+.widget-title {
+    text-align: left;
+    border: 2px solid black;
+    background-color: #171717;
+    padding-left: 5px;
+    text-decoration: upperccase;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    color:floralwhite;
+    font-weight: bolder;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .value {
+    text-align: left;
+    font-size: 50px;
+    padding: 8px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 501;
+    color:darkseagreen;
+  }
+    
+
+  .description {
+    text-align: left;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-family: 'Roboto Mono', monospace;
+  }
+  .widget-value {
+    background-color: #171717;
+    border: 2px solid black;
+    border-bottom-left-radius: 15px;
+  }
+
+  .text-widget {
+    width: 250px;
+    margin-bottom: 25px;
+    -webkit-box-shadow: -20px 28px 31px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: -20px 28px 31px -19px rgba(0,0,0,0.75);
+    box-shadow: -20px 28px 31px -19px rgba(0,0,0,0.75);
+    border-bottom-left-radius: 15px;
+  }
+
+  .Top-Header.row{
+    background-color: #171717;
+    text-align: left;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.Header-Title {
+  font-size: 26px;
+  color: seashell;
+ font-family: 'Roboto Mono', monospace;
+}
+.Dropdown-root {
+  width: 170px;
+  float: right;
+}
+.widget-container {
+    width: 82%;
+    -webkit-box-shadow: -20px 28px 31px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: -20px 28px 31px -19px rgba(0,0,0,0.75);
+    box-shadow: -20px 28px 31px -19px rgba(0,0,0,0.75);
+    margin-bottom: 25px;
+}
+
+text {
+  fill: floralwhite;
+}
+
+.session-line > .widget-container {
+  width: 91%;
+}
+
+.view-line > .widget-container {
+  width: 100%;
+}
+.bounce-rte >.text-widget{
+  width:80%;
+  
+}
